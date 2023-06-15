@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: colors
+Version: 0.0.1
+Summary: Paquete para mejorar los prints
+Author: José Huerto
+Author-email: jhuertom@gmail.com
+Keywords: python,colors
+Classifier: Programming Language :: Python :: 3
+
+Paquete para mejorar los prints
