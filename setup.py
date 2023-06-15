@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+VERSION = '0.0.2' 
 DESCRIPTION = 'Paquete para mejorar los prints'
 LONG_DESCRIPTION = 'Paquete para mejorar los prints'
 
