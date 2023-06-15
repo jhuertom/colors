@@ -15,10 +15,10 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 def print(msg):
-    printalias(f"{bcolors.OKGREEN}{datetime.now()}{bcolors.HEADER} --> {bcolors.OKBLUE}{msg}{bcolors.ENDC}", file=sys.stdout)
+    printalias(f"{bcolors.OKGREEN}{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{bcolors.HEADER} --> {bcolors.OKBLUE}{msg}{bcolors.ENDC}", file=sys.stdout)
 
 def warn(msg):
-    printalias(f"{bcolors.OKGREEN}{datetime.now()}{bcolors.HEADER} --> {bcolors.WARNING}{msg}{bcolors.ENDC}", file=sys.stdout)
+    printalias(f"{bcolors.OKGREEN}{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{bcolors.HEADER} --> {bcolors.WARNING}{msg}{bcolors.ENDC}", file=sys.stdout)
 
 def err(msg):
-    printalias(f"{bcolors.OKGREEN}{datetime.now()}{bcolors.HEADER} --> {bcolors.FAIL}{bcolors.BOLD}{msg}{bcolors.ENDC}", file=sys.stderr)
+    printalias(f"{bcolors.OKGREEN}{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{bcolors.HEADER} --> {bcolors.FAIL}{bcolors.BOLD}{msg}{bcolors.ENDC}", file=sys.stderr)
